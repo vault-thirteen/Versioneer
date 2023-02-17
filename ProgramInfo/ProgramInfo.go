@@ -80,6 +80,10 @@ func (pi *ProgramInfo) ProgramVersion() (version string) {
 	return pi.version
 }
 
+func (pi *ProgramInfo) ProgramVersionNumber() (versionNumber string) {
+	return strings.TrimPrefix(strings.TrimPrefix(pi.version, "v"), "ver")
+}
+
 func (pi *ProgramInfo) DependenciesList() (list []*Dependency) {
 	return pi.dependencies
 }

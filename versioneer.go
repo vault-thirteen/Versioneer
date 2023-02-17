@@ -39,7 +39,7 @@ func (v *Versioneer) ShowIntroText(product string) {
 		fmt.Println(
 			fmt.Sprintf(IntroTextShort,
 				v.programInfo.ProgramName(),
-				v.programInfo.ProgramVersion(),
+				v.programInfo.ProgramVersionNumber(),
 				runtime.Version(),
 			),
 		)
