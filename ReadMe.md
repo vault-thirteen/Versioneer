@@ -11,7 +11,7 @@ of Go language incorrectly shows version text of the `main` package manually
 built from the repository's source code. It means that versioning mechanism in 
 Go is still not working as it should `:/`
 
-![1](img/Mister Been 640x360.png)
+![Mister Bean](img/Mister_Been_640x360.png)
 
 Well ... this is Go, my friends. This is not the C#.
 
