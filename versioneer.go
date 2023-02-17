@@ -48,7 +48,7 @@ func (v *Versioneer) ShowIntroText(product string) {
 			fmt.Sprintf(IntroTextFull,
 				v.programInfo.ProgramName(),
 				product,
-				v.programInfo.ProgramVersion(),
+				v.programInfo.ProgramVersionNumber(),
 				runtime.Version(),
 			),
 		)
