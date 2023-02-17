@@ -1,3 +1,3 @@
 # Versioneer
 
-TODO
+Product and dependency version helper.
